@@ -3,7 +3,7 @@ import { BookContext } from "../contexts/BookContext";
 import styled from 'styled-components';
 
 const StyledBookItem = styled.li`
-  background: #6d3d6d;
+  background: ${({theme}) => theme.colors.bookDetailsBg};
   border-radius: 4px;
   padding: 10px;
   cursor: pointer;

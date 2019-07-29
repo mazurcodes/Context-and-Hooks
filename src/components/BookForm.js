@@ -12,7 +12,7 @@ const BookInput = styled.input`
   padding: 10px;
   margin-bottom: 10px;
   background: #6d3d6d;
-  color: white;
+  color: ${({theme}) => theme.colors.text};
   border-radius: 5px;
   border: none;
   ::placeholder {

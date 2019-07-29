@@ -5,7 +5,7 @@ import styled from 'styled-components';
 const NavbarComponent = styled.div`
   padding: 20px 20px;
   text-align: center;
-  background: #6d3d6d;
+  background: ${({theme}) => theme.colors.navbarBg};
   margin: 0;
 `;
 
